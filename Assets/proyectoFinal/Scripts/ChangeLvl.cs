@@ -7,11 +7,13 @@ public class ChangeLvl : MonoBehaviour
 {
     [SerializeField] private string sceneName;
     public GameObject transition;
+    public GameObject quack;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
+            Instantiate(quack);
             transition.SetActive(true);
             Invoke("ChangeLevel", 1);
         }

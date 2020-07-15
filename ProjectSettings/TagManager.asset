@@ -8,6 +8,7 @@ TagManager:
   - goal
   - platform
   - collectable
+  - MainMenu.play
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - ground
-  - 
+  - back
   - 
   - 
   - 

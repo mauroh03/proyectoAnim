@@ -170,3 +170,7 @@ MonoBehaviour:
   jumpForce: 6
   points: 0
   pointText: {fileID: 0}
+  moneysound: {fileID: 5011833800651353945, guid: 6e16dfccb3fc8794f9b93ec5c28abd3b,
+    type: 3}
+  walk: {fileID: 2016134464652882101, guid: be6fc9e3c76db0f4993298eecf95e33b, type: 3}
+  jump: {fileID: 7569165799950145885, guid: c48b09455c91d1f4786c533406def8f9, type: 3}

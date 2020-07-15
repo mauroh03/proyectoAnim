@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{16DD1D4B-0017-C897-AC70-0D4740C4ACC9}</ProjectGuid>
+    <ProjectGuid>{7B221835-3033-85BE-C843-0E7B040768EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\proyectoFinal\LVL3\LVLUP.cs" />
+    <Compile Include="Assets\proyectoFinal\Opening\Letsplay.cs" />
     <Compile Include="Assets\proyectoFinal\Scripts\Background.cs" />
     <Compile Include="Assets\proyectoFinal\Scripts\ChangeLvl.cs" />
     <Compile Include="Assets\proyectoFinal\Scripts\Goal.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Assets\proyectoFinal\Scripts\Spike.cs" />
     <Compile Include="Assets\proyectoFinal\Scripts\cameraController.cs" />
     <Compile Include="Assets\proyectoFinal\Scripts\platformGuideLine.cs" />
+    <Compile Include="Assets\proyectoFinal\Scripts\soundfin.cs" />
     <None Include="Assets\Knight Files\Read Me.txt" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEngine">
@@ -602,91 +605,91 @@
       <HintPath>C:/Users/mauro/OneDrive/Escritorio/Universidad/Imarys/animacion/unity/2019.4.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/mauro/OneDrive/Escritorio/FinalGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/mauro/OneDrive/Escritorio/final animacion-Roberto/proyectoAnim-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

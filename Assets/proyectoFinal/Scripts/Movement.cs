@@ -22,6 +22,13 @@ public class Movement : MonoBehaviour
     [SerializeField] private int points = 0;
     [SerializeField] private Text pointText;
 
+
+    public GameObject moneysound;
+    public GameObject walk;
+    public GameObject jump;
+    
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,6 +39,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            print("Saliendo");
+            Application.Quit();
+        }
+
         if (state != State.hurt)
         {
             MovementController();
@@ -48,12 +61,14 @@ public class Movement : MonoBehaviour
         {
             rb.velocity = new Vector2(-velocity, rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
+            Instantiate(walk);
         }
 
         else if (xDirection > 0)
         {
             rb.velocity = new Vector2(velocity, rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
+            Instantiate(walk);
         }
         else
         {
@@ -63,6 +78,7 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && coll.IsTouchingLayers(ground))
         {
             Jump();
+            Instantiate(jump);
         }
 
         if (Input.GetKey(KeyCode.Escape)) {
@@ -81,6 +97,7 @@ public class Movement : MonoBehaviour
         if (collision.tag == "collectable")
         {
             Destroy(collision.gameObject);
+            Instantiate(moneysound);
             points += 1;
             pointText.text = points.ToString();
         }
